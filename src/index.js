@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { test } from './Test.bs.js';
 import * as serviceWorker from './serviceWorker';
 
+test();
 ReactDOM.render(
   <React.StrictMode>
     <App />
